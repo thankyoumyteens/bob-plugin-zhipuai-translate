@@ -1,0 +1,50 @@
+{
+  "identifier": "bob-plugin-zhipuai-translate",
+  "version": "0.1.0",
+  "category": "translate",
+  "name": "质谱AI翻译插件",
+  "summary": "调用质谱AI的API翻译",
+  "icon": "001",
+  "author": "walter",
+  "homepage": "",
+  "appcast": "",
+  "minBobVersion": "0.5.0",
+  "options": [
+    {
+      "identifier": "zhipuAIKeyId",
+      "type": "text",
+      "title": "用户标识 id",
+      "textConfig": {
+        "type": "secure"
+      }
+    },
+    {
+      "identifier": "zhipuAIKeySecret",
+      "type": "text",
+      "title": "签名密钥 secret",
+      "textConfig": {
+        "type": "secure"
+      }
+    },
+    {
+      "identifier": "apiTimeout",
+      "type": "text",
+      "title": "超时时间",
+      "defaultValue": "300",
+      "textConfig": {
+        "placeholderText": "30 ~ 300",
+        "type": "visible"
+      }
+    },
+    {
+      "identifier": "zhipuAIPrompt",
+      "type": "text",
+      "title": "prompt",
+      "defaultValue": "我希望你能帮我将以下英文翻译成中文:",
+      "textConfig": {
+        "placeholderText": "prompt",
+        "type": "visible"
+      }
+    }
+  ]
+}
