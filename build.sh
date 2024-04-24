@@ -1,0 +1,1 @@
+zip ../demo.bobplugin info.json main.js

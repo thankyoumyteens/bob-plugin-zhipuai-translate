@@ -68,7 +68,7 @@ function translate(query, completion) {
     messages: [
       {
         role: "user",
-        content: prompt + "\\n" + text,
+        content: prompt,
       },
       {
         role: "user",
